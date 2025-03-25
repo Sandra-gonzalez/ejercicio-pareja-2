@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecera {
+  display: flex; /* Activa el modelo de caja flexible */
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: space-between; /* Separa los elementos (logo a la izquierda, icono a la derecha) */
+  padding: 10px 10px; /* Espaciado opcional */
+  background-color: black; /* fondo negro */
+}
+
+.cabecera img {
+  width: 100px; /* Ajusta el tamaño del logo */
+  height: auto; /* Mantiene la proporción */
+}
+
+.logo2 img {
+  width: 40px; /* Ajusta el tamaño del icono del menú */
+  height: auto;
+  cursor: pointer; /* Hace que parezca clickeable */
+}
+
+h1{
+display: flex; /* Activa Flexbox */
+justify-content: center; /* Centra horizontalmente */
+text-align: center; /* Alinea el texto dentro */
+}  
+
+div{
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  text-align: center; /* Alinea el texto dentro */
+  }
+
+  button{
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  text-align: center; /* Alinea el texto dentro */
+  } 
+
+p{
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  text-align: center; /* Alinea el texto dentro */
+   }
+
+
+.franja-azul {
+ background-color:rgb(45, 144, 231);  /* Fondo azul */
+ font-family: 'Circular', sans-serif;
+ color: white;
+}
+ 
+
+ #button-verde {
+  background-color: green; /* Fondo verde */
+  color: white; /* Texto en blanco para contraste */
+  border: none; /* Sin bordes */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 17px; /* Tamaño del texto */
+  cursor: pointer; /* Cambia el cursor a "mano" al pasar el mouse */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.franja-blanca {
+  background-color: white;
+  font-family: 'Circular', sans-serif;
+  color: black;
+
+}
+
+.imagen1{
+   display: flex; /* Activa el modelo de caja flexible */
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: left;
+  padding: 10px 10px; /* Espaciado opcional */
+  
+
+}
+
+.imagen2{
+  display: flex; /* Activa el modelo de caja flexible */
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: left;
+  padding: 10px 10px; /* Espaciado opcional */
+}
+.imagen3{
+  display: flex; /* Activa el modelo de caja flexible */
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: left;
+  padding: 10px 10px; /* Espaciado opcional */
+}
+
+.imagen4{
+  display: flex; /* Activa el modelo de caja flexible */
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: left;
+  padding: 10px 10px; /* Espaciado opcional */
+}
+
+
+
+
+
+
+/* Estilos para tablets */
+  @media (min-width: 768px) {
+    body {
+      width: auto;
+      padding: 20px;
+    }
+  
+    button {
+      width: auto;
+      padding: 15px 30px;
+    }
+  }
+  
+  /* Estilos para desktops */
+  @media (min-width: 1024px) {
+    body {
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+  
+    header {
+      text-align: left;
+      padding: 20px;
+    }
+  }
+  
+  @media all and (min-width: 480px) {
+
+  }
+  
